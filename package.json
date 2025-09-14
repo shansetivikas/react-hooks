@@ -1,9 +1,12 @@
 {
   "name": "react-hooks",
+  "homepage": "https://shansetivikas.githb.io/react-hooks",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run bbuilld",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
